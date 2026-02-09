@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv>
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,6 +71,7 @@
                 <h2>Öppettider</h2>
                 <p><strong>Mån-Lör:</strong> 10:00-19:00</p>
                 <p><strong>Sön:</strong> Stängt</p>
+                <p id="lunch"><strong>OBS 14:00-15:00<br>Lunchrast</strong></p>
 
           <section id="tjanster" class="services">
             <h2>Tjänster & Priser</h2>
@@ -99,18 +100,21 @@
             </section>
             
               </div>
+              <footer class="footer">
               <div id="kontakt-anchor"></div>
 
               <div id="kontakt" class="about__divider">
                 <h2>Kontakt</h2>
                 <p>Telefon: <a class="about__link" href="tel:+46739301713">073 930 17 13</a></p>
                 <p>Adress: Sofiagatan 3, 332 30 Gislaved</p>
+                <span class="copyright">Copyright &copy; Alla rättigheter förbehållna</span>
               </div>
             </div>
-          </section>
+          </footer>
         </section>
-    
+      </section>
     </div>
+
   </main>
  
  
@@ -158,7 +162,7 @@
       if (!clickedInsideHeader) closeMenu();
     });
 
-    // Stäng på ESC (nice på desktop)
+    // Stäng på ESC
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") closeMenu();
     });

@@ -5,7 +5,7 @@
 body{
   margin: 0;
   padding-top: 74px;
-  background: #0b0b0b;
+  background: #0b0b0b
 }
 
 html, body {
@@ -30,6 +30,7 @@ background: rgba(10, 10, 10, 0.55);
 backdrop-filter: blur(6px);
 
 }
+
 
  .nav-inner {
     max-width: 1200px;
@@ -107,7 +108,7 @@ backdrop-filter: blur(6px);
     padding: 140px 0 90px;
     color: #ffffff;
     text-align: center;
-    background-color: #111;
+    background: #111;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -153,15 +154,9 @@ backdrop-filter: blur(6px);
     font-weight: 800;
     text-decoration: none;
 }
-
 .btn--primary {
     background: #e6c98a;
     color: #111;
-}
-
-.btn--ghost {
-    border: 1px solid rgba(255,  255, 255, 0.6);
-    color: #fff;
 }
 
 .btn--primary:hover {
@@ -199,6 +194,10 @@ backdrop-filter: blur(6px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(255, 255, 255, 0.02);
   color: #e6c98a;
+}
+
+#lunch {
+  text-decoration: underline;
 }
 
 
@@ -299,8 +298,23 @@ max-width: 520px;
   scroll-margin-top: 100px;
 }
 
+.footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 425px;
+  height: 100%;
+  background: #0b0b0b;
+
+}
+
+.copyright {
+  font-size: 19px;
+}
+
 #kontakt-anchor {
-  position: relative;
+  position: flex;
   top: -120px;
   height: 1px;
 }

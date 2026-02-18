@@ -196,6 +196,10 @@ backdrop-filter: blur(6px);
   color: #e6c98a;
 }
 
+.hours h2 {
+  font-size: 45px;
+}
+
 #lunch {
   text-decoration: underline;
 }
